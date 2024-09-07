@@ -1,0 +1,50 @@
+@media (max-width: 1980px) and (min-width: 1201px) { 
+    .container {
+        width: 100%;
+        height: 10vh;
+        background-color: #fff;
+    }
+
+    .categories {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 721px) {
+
+}
+
+@media (max-width: 720px) and (min-width: 321px) {
+    .containerMobile {
+        width: 100%;
+        height: 15vh;
+        background-color: #fff;
+    }
+
+    .categoriesMobile {
+        width: 100%;
+        display: flex;
+        z-index: 1;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .categoriesNone {
+        display: none;
+    }
+
+    .mobileIcons {
+        display: flex;
+        width: 90%;
+        height: 15vh;
+        padding-left: 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
