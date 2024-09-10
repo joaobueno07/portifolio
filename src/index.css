@@ -12,22 +12,30 @@ body {
 
 h1 {
     font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    font-size: 10rem;
 }
 
 h2 {
     font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    font-size: 8rem;
 }
 
 h3 {
     font-family: "Bebas Neue", sans-serif;
+    color: #fff;
+    font-size: 4rem;
 }
 
 p {
     font-family: "Poppins", sans-serif;
+    color: #fff;
 }
 
 li {
     list-style-type: none;
     font-family: "Poppins", sans-serif;
 }
+
 
