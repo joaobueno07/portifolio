@@ -7,8 +7,7 @@ export default function Content() {
 
     return (
         <div className={content.containerMobile}>
-            {
-                width > 1000 ? (
+            { width > 1000 ? (
                     <div className={content.infoDesk}>
                         <h3 className={content.center} style={{fontSize: '8rem'}}>
                             Olá, me chamo João Carlos
@@ -29,9 +28,9 @@ export default function Content() {
                             </a>
                         </div>
                     </div>
-                ) : (
+            ) : (
                 <div className={content.infoMobile}>
-                    <h3 className={content.centerMobile}>
+                    <h3 className={content.centerMobile} style={{fontSize: '4rem'}}>
                         Olá, me chamo João Carlos
                     </h3>
 
@@ -52,8 +51,7 @@ export default function Content() {
                         </a>
                     </div>
                 </div>
-                )
-            }
+            )}
         </div>
     );
 }

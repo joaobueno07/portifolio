@@ -51,8 +51,10 @@ export default function Menu() {
                 ) : (
                     <div className={menu.containerMobile}>
                         <div className={menu.mobileIcons}>
-                            <img id='profile' src="/photo_profile.png" width={70} 
-                            style={{border: "2px solid #000", borderRadius: "50%",}}/>
+                            <a href='/'>
+                                <img id='profile' src="/photo_profile.png" width={70} 
+                                style={{border: "2px solid #000", borderRadius: "50%",}}/>
+                            </a>
 
                             <img src={menuHamburger} width={50} onClick={handleMenuIcon}/>
                         </div>
