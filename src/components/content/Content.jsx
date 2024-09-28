@@ -14,7 +14,7 @@ export default function Content() {
                         </h3>
 
                         <div className={content.textDesk}>
-                            <p className={content.center} style={{fontSize: '1.3rem'}}>
+                            <p className={content.center}>
                                 Sou desenvolvedor capaz de criar aplicações e sistemas completos 
                                 para você e seu negócio.
                             </p>

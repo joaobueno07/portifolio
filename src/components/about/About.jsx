@@ -24,8 +24,9 @@ export default function About() {
                             <h2 style={{fontSize: '4rem'}}>O que eu faço ?</h2>
                             
                             <p className={about.center}>
-                                Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas.
-                                Tenho 27 anos e estudo programação há 4 anos.
+                                Criação de  websites e aplicações para o seu negócio,
+                                como também API, sistemas completos para internet(front-end e back-end),
+                                além de outros tipos de software.
                             </p>
                         </div>
 
@@ -33,8 +34,8 @@ export default function About() {
                             <h2 style={{fontSize: '4rem'}}>Tecnologias</h2>
                             
                             <p className={about.center}>
-                                Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas.
-                                Tenho 27 anos e estudo programação há 4 anos.
+                                Atualmente, trabalho com C# .NET (ASP.NET Core e EF Core) 
+                                e tecnologias JavaScript (Node.js, React.js/Next.js) 
                             </p>
                         </div>
 
@@ -42,8 +43,8 @@ export default function About() {
                             <h2 style={{fontSize: '4rem'}}>Curiosidades</h2>
                             
                             <p className={about.center}>
-                                Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas.
-                                Tenho 27 anos e estudo programação há 4 anos.
+                               Possuo experiência na área de Marketing Digital, mexendo com Facebook Ads,
+                               Google Ads, Google Analytics e Google Tag Manager, como também em plataformas de E-Commerce
                             </p>
                         </div>
                     </div>

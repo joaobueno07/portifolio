@@ -15,8 +15,13 @@ export default function Projects() {
                         <img width={80} style={{padding: '2% 2%'}}
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"/>
 
-                        <div className={project.text}>
+                        <div>
                             <h1 className={project.title}>Projetos Back-End com C#</h1>
+                            <ul>
+                                <li style={{color: "#fff"}}>API de E-commerce</li>
+                                <li style={{color: "#fff"}}>Sistema de Estacionamento</li>
+                                <li style={{color: "#fff"}}>ERP de gestão de estoque</li>
+                            </ul>
                         </div>
 
                     </div>
@@ -27,6 +32,11 @@ export default function Projects() {
 
                         <div>
                             <h1 className={project.title}>Projetos Back-End com Node.js</h1>
+                            <ul>
+                                <li style={{color: "#fff"}}>API de E-commerce</li>
+                                <li style={{color: "#fff"}}>Sistema de Estacionamento</li>
+                                <li style={{color: "#fff"}}>ERP de gestão de estoque</li>
+                            </ul>
                         </div>
                     </div>
                 
@@ -36,6 +46,11 @@ export default function Projects() {
 
                         <div>
                             <h1 className={project.title}>Projetos Front-End com React</h1>
+                            <ul>
+                                <li style={{color: "#fff"}}>API de E-commerce</li>
+                                <li style={{color: "#fff"}}>Sistema de Estacionamento</li>
+                                <li style={{color: "#fff"}}>ERP de gestão de estoque</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

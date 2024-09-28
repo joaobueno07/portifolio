@@ -1,0 +1,105 @@
+@media (max-width: 1980px) and (min-width: 1201px) { 
+    .containerContent {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .emailButton {
+        width: 20%;
+        height: 6vh;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 2%;
+    }
+    
+    .textTitle {
+        font-size: 5rem;
+    }
+
+    .textSubtitle {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 721px) {
+    .textTitleMobile {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .textSubtitleMobile {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .emailButtonMobile {
+        width: 60%;
+        height: 6vh;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 8%;
+    }
+
+    .containerContentMobile {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contentMobile {
+        width: 80%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 720px) and (min-width: 321px) {
+    
+    .textTitleMobile {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .textSubtitleMobile {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .emailButtonMobile {
+        width: 60%;
+        height: 6vh;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 8%;
+    }
+
+    .containerContentMobile {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contentMobile {
+        width: 80%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
